@@ -17,6 +17,8 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
   height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -39,6 +41,10 @@ header {
 #card {
   position: relative;
   width: 100%;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .dog-img {
