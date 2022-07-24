@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.container {
+  width: 350px;
+  border: 5px solid #f3eef3;
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: 600px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 3em;
+}
+
+.icon-header {
+  height: 25px;
+}
+
+#card .dog-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#card {
+  position: relative;
+  width: 100%;
+}
+
+.dog-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dog-info {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 10px;
+}
+
+.dog-bio {
+  margin-top: 5px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.buttons {
+  display: flex;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  box-shadow: 1px 1px 5px #bcbcbc;
+  border-radius: 50%;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-like {
+  background: #ffffff url(images/like-icon.png);
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+}
+
+.btn-nope {
+  background: #ffffff url(images/nope-icon.png);
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+}
+
+.btn-like:hover {
+  background-color: #dbfff4;
+  box-shadow: 0px 10px 20px #ccf1e6;
+}
+
+.btn-nope:hover {
+  background-color: #ffe7ef;
+  box-shadow: 0px 10px 20px #edd9df;
+}
+
+#badge-img img {
+  width: 150px;
+  transform: rotate(-35deg);
+  position: absolute;
+  bottom: 332px;
+}
+
+.card-end-message {
+  margin: 1em;
+  height: 430px;
+  background: linear-gradient(270deg, #fa695a 0%, #f83375 100%);
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 1em;
+}
+
+.click {
+  position: absolute;
+  bottom: 330;
+  width: 220px;
+  font-size: 14px;
+}
+
+.emoji {
+  position: absolute;
+  bottom: 390px;
+  font-size: 18px;
+}
